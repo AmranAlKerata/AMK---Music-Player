@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>AMK - Music Player</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Antic+Didone|Montserrat:400,700" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/icons/amk.svg">
+</head> 
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <main class="music-illustrations">
+            <div class="images-container">
+                <div class="main-image not-animated loading"></div>
+                <img src="images/shape.svg" alt="Wave" class="shape">
+            </div>
+        </main>
+        <div class="controls-player">
+            <div class="played">
+                <div class="music-information">
+                    <div class="buttons-controls-music random">
+                        <button class="button-control random-button is-not-active">
+                            <ion-icon name="shuffle-outline"></ion-icon>
+                        </button>
+                    </div>
+                        <div class="music-information-desc">
+                            <span class="title not-animated-music-information"></span>
+                            <span class="author-album not-animated-music-information"></span>
+                        </div>
+
+                    <div class="buttons-controls-music repeat">
+                        <button class="button-control repeat-button is-not-active">
+                            <ion-icon name="repeat-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="audio-time-control">
+                    <span class="current-time"></span>
+                    <div class="seek-bar-time">
+                        <div class="fill-time"></div>
+                        <div class="dot-seek-bar-time"></div> 
+                    </div>
+                    <span class="duration"></span>
+                </div>
+                <div class="buttons-controls-music">
+                    <button class="button-control skip-backward-button">
+                        <ion-icon name="play-skip-back"></ion-icon>
+                    </button>
+                    <button class="button-control play-button is-not-active">
+                        <ion-icon name="play" id="play-pause"></ion-icon>
+                    </button>
+                    <button class="button-control skip-forward-button">
+                        <ion-icon name="play-skip-forward"></ion-icon>
+                    </button>
+                </div>
+            </div>
+            <div class="volume">
+                <button class="button-control toggle-volume">
+                    <ion-icon name="" id="volume"></ion-icon>
+                </button>
+                <div class="seek-bar-volume">
+                    <div class="fill-volume"></div>
+                    <div class="dot-seek-bar-volume"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="./script/script.js"></script> 
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body> 
+</html> 

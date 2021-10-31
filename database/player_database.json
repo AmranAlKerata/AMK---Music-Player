@@ -1,0 +1,26 @@
+[
+  {
+    "artist": "Hozier",
+    "musicName": "Take Me To Church",
+    "audioSrc": "./musics/hozier_take_me_to_church.mp3",
+    "backgroundImage": "./images/backgrounds-artists/hozier.jpg"
+  },
+  {
+    "artist": "Moudy Alarbe",
+    "musicName": "Musab",
+    "audioSrc": "./musics/musab.mp3",
+    "backgroundImage": "./images/backgrounds-artists/musab.jpg"
+  },
+  {
+    "artist": "Alec Benjamin",
+    "musicName": "Let Me Down Slowly",
+    "audioSrc": "./musics/let-me-down-slowly.mp3",
+    "backgroundImage": "./images/backgrounds-artists/let-me-down-slowly.jpg"
+  },
+  {
+    "artist": "Moudy Alarbe",
+    "musicName": "Mani Shayeef",
+    "audioSrc": "./musics/mani_shayeef.mp3",
+    "backgroundImage": "./images/backgrounds-artists/mani-shayeef.jpg"
+  }
+]
